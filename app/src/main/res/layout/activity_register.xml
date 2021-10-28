@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.RegisterActivity">
+
+    <ImageView
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/kelompok" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:scrollbars="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:orientation="vertical"
+            android:padding="10sp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="5sp">
+
+                <ImageView
+                    android:layout_width="70sp"
+                    android:layout_height="70sp"
+                    android:src="@drawable/rootaccess" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10sp"
+                    android:text="Sign Up Form"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/white"
+                app:errorEnabled="true"
+                app:helperText="nama pelajar"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/ic_person">
+
+                <EditText
+                    android:id="@+id/etr_nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama"
+                    android:inputType="text|textAutoCorrect"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/white"
+                app:errorEnabled="true"
+                app:helperText=" isikan password pelajar"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/ic_password">
+
+                <EditText
+                    android:id="@+id/etr_pass"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textWebPassword"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:tooltipText="di isi dengan nomer ruang pelajar"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/white"
+                app:errorEnabled="true"
+                app:helperText="isi berdasarkan nomer ruang kelas siswa"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/ic_class">
+
+                <EditText
+                    android:id="@+id/etr_kelas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kelas "
+                    android:inputType="number"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/white"
+                app:errorEnabled="true"
+                app:helperText="nama ibu pelajar"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/ic_home">
+
+                <EditText
+                    android:id="@+id/etr_namaibu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Nama Ibu"
+                    android:inputType="text"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/white"
+                app:errorEnabled="true"
+                app:helperText="nomer telpone pelajar"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/ic_phone">
+
+                <EditText
+                    android:id="@+id/etr_telepone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Telepone"
+                    android:inputType="number"
+                    android:textSize="20sp"
+                    tools:ignore="SpeakableTextPresentCheck" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boxBackgroundMode="outline"
+                app:boxStrokeColor="@color/white"
+                app:errorEnabled="true"
+                app:helperText="alamat email"
+                app:helperTextTextColor="#FF0000"
+                app:startIconDrawable="@drawable/ic_email">
+
+                <EditText
+                    android:id="@+id/etr_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"
+                    android:textSize="20sp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_register"
+                style="?attr/spinnerDropDownItemStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:text="Register"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

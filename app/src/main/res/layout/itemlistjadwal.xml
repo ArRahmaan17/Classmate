@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="0sp"
+    android:layout_margin="3sp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10sp"
+        android:orientation="vertical">
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5sp">
+
+            <TextView
+                android:id="@+id/tv_gurujadwal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginStart="15sp"
+                android:text="1"/>
+            <TextView
+                android:id="@+id/tv_matapelajaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginStart="15sp"
+                android:text="2"/>
+
+            <TextView
+                android:id="@+id/tv_jam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textSize="15sp"
+                android:layout_marginEnd="10sp"
+                android:layout_marginStart="15sp"
+                android:text="3"/>
+        </TableRow>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
