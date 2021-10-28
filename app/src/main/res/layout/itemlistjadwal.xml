@@ -19,7 +19,11 @@
 
             <TextView
                 android:id="@+id/tv_gurujadwal"
+<<<<<<< HEAD
                 android:layout_width="wrap_content"
+=======
+                android:layout_width="100sp"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="15sp"
@@ -28,7 +32,11 @@
                 android:text="1"/>
             <TextView
                 android:id="@+id/tv_matapelajaran"
+<<<<<<< HEAD
                 android:layout_width="wrap_content"
+=======
+                android:layout_width="100sp"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="15sp"
@@ -38,7 +46,11 @@
 
             <TextView
                 android:id="@+id/tv_jam"
+<<<<<<< HEAD
                 android:layout_width="wrap_content"
+=======
+                android:layout_width="100sp"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
                 android:layout_height="wrap_content"
                 android:textAlignment="center"
                 android:textSize="15sp"

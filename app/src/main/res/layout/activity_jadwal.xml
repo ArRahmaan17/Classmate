@@ -55,7 +55,11 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+<<<<<<< HEAD
         android:layout_width="match_parent"
+=======
+        android:layout_width="wrap_content"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,6 +1,9 @@
 package com.maaan.classmate.Activity;
 
+<<<<<<< HEAD
 import androidx.annotation.RequiresApi;
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -9,9 +12,13 @@ import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import android.app.AlertDialog;
 import android.content.Intent;
+<<<<<<< HEAD
 import android.os.Build;
 import android.os.Bundle;
 import android.widget.ImageView;
+=======
+import android.os.Bundle;
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -52,7 +59,10 @@ public class HomeActivity extends AppCompatActivity {
         startActivity(new Intent(HomeActivity.this, TugasActivity.class));
     }
 
+<<<<<<< HEAD
     @RequiresApi(api = Build.VERSION_CODES.O)
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,6 +91,7 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void succes(){
+<<<<<<< HEAD
         if (result.isEmpty()){
             Toast.makeText(this, "Load data tugas gagal", Toast.LENGTH_SHORT).show();
         }else{
@@ -88,6 +99,9 @@ public class HomeActivity extends AppCompatActivity {
         }
 
 
+=======
+        Toast.makeText(this, "Success Load Data Tugas", Toast.LENGTH_SHORT).show();
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
     }
 
     private void loadTugasSiswa(){

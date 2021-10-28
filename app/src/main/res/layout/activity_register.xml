@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".Activity.RegisterActivity">
 
+<<<<<<< HEAD
     <ImageView
         android:layout_width="150sp"
         android:layout_height="150sp"
@@ -16,10 +17,16 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+=======
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
         android:paddingTop="10sp"
         android:paddingBottom="10sp"
         android:scrollbars="vertical">
 
+<<<<<<< HEAD
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,6 +37,17 @@
             android:orientation="vertical"
             android:padding="10sp">
 
+=======
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_gravity="top"
+            android:padding="10sp"
+            android:background="@drawable/backgroundformlogin">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -46,6 +64,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_marginLeft="10sp"
+<<<<<<< HEAD
                     android:text="Sign Up Form"
                     android:textSize="18sp"
                     android:textStyle="bold" />
@@ -154,6 +173,106 @@
                     tools:ignore="SpeakableTextPresentCheck" />
 
             </com.google.android.material.textfield.TextInputLayout>
+=======
+                    android:textStyle="bold"
+                    android:text="Sign Up Form"
+                    android:textSize="18sp" />
+
+            </LinearLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/white"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/ic_person">
+
+                    <EditText
+                        android:id="@+id/etr_nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nama"
+                        android:inputType="text|textAutoCorrect"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/white"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/ic_password">
+
+                    <EditText
+                        android:id="@+id/etr_pass"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Password"
+                        android:inputType="textWebPassword"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/white"
+                    app:errorEnabled="true"
+                    android:tooltipText="di isi dengan nomer ruang kelas"
+                    app:startIconDrawable="@drawable/ic_class">
+
+                    <EditText
+                        android:id="@+id/etr_kelas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Kelas "
+                        android:inputType="number"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/white"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/ic_home">
+
+                    <EditText
+                        android:id="@+id/etr_namaibu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Nama Ibu"
+                        android:inputType="text"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:boxBackgroundMode="outline"
+                    app:boxStrokeColor="@color/white"
+                    app:errorEnabled="true"
+                    app:startIconDrawable="@drawable/ic_phone">
+
+                    <EditText
+                        android:id="@+id/etr_telepone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Telepone"
+                        android:inputType="number"
+                        android:textSize="20sp" />
+
+                </com.google.android.material.textfield.TextInputLayout>
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
@@ -161,8 +280,11 @@
                 app:boxBackgroundMode="outline"
                 app:boxStrokeColor="@color/white"
                 app:errorEnabled="true"
+<<<<<<< HEAD
                 app:helperText="alamat email"
                 app:helperTextTextColor="#FF0000"
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
                 app:startIconDrawable="@drawable/ic_email">
 
                 <EditText
@@ -175,6 +297,7 @@
 
             </com.google.android.material.textfield.TextInputLayout>
 
+<<<<<<< HEAD
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_register"
@@ -185,6 +308,16 @@
                 android:text="Register"
                 android:textAlignment="center"
                 android:textColor="@color/white"
+=======
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                style="?attr/spinnerDropDownItemStyle"
+                android:text="Register"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
                 android:textSize="20sp" />
         </LinearLayout>
 

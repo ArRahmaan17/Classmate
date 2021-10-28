@@ -16,8 +16,13 @@ public interface ApiRequestData {
             @Field("password") String password,
             @Field("kelas") Integer kelas,
             @Field("foto") String foto,
+<<<<<<< HEAD
             @Field("namaibu") String nama_ibu,
             @Field("telphone") String no_telp,
+=======
+            @Field("nama_ibu") String nama_ibu,
+            @Field("no_telp") String no_telp,
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
             @Field("email") String email
     );
 
@@ -34,11 +39,14 @@ public interface ApiRequestData {
     @GET("selectdatajadwal.php")
     Call<DataResponse> LoadJadwal();
 
+<<<<<<< HEAD
     @FormUrlEncoded
     @POST("absen.php")
     Call<DataResponse> AbsenPelajar(
             @Field("nama") String nama
     );
 
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
 }

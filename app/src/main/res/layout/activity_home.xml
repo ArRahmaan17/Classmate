@@ -1,20 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     app:layoutDescription="@xml/activity_home_scene"
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
     tools:context=".Activity.HomeActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/ly_infouser"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="1000sp"
         android:background="@color/teal_700"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0">
+=======
+        android:layout_height="200sp"
+        android:background="@color/teal_700">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
         <TextView
             android:id="@+id/tv_user"
@@ -28,11 +40,16 @@
             app:layout_constraintHorizontal_bias="0.05"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
+<<<<<<< HEAD
             app:layout_constraintVertical_bias="0.15" />
+=======
+            app:layout_constraintVertical_bias="0.10" />
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="100sp"
+<<<<<<< HEAD
             android:layout_marginTop="16dp"
             android:gravity="center_horizontal"
             android:orientation="horizontal"
@@ -42,6 +59,14 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/tv_user"
             app:layout_constraintVertical_bias="0.10">
+=======
+            android:layout_marginTop="20sp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_user">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -56,7 +81,10 @@
                     android:layout_height="70sp"
                     app:cardCornerRadius="10sp"
                     app:cardElevation="10sp">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
                     <ImageView
                         android:id="@+id/iv_absen"
                         android:layout_width="match_parent"
@@ -162,6 +190,7 @@
                     android:textColor="@color/white" />
 
             </LinearLayout>
+<<<<<<< HEAD
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -174,6 +203,27 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ly_infouser"
         app:layout_constraintVertical_bias="0.0">
+=======
+
+
+        </LinearLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:layout_above="@+id/srl_data"
+        android:background="@drawable/extensionrctugas">
+
+    </LinearLayout>
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/srl_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_infouser">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
         <ScrollView
             android:layout_width="match_parent"
@@ -181,15 +231,23 @@
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
+<<<<<<< HEAD
                 android:layout_height="match_parent"
                 android:layout_margin="5sp"
                 android:padding="30sp"
                 app:cardElevation="2sp">
+=======
+                android:layout_height="wrap_content"
+                app:cardElevation="5sp"
+                android:padding="30sp"
+                android:layout_margin="5sp">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/rv_tugas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+<<<<<<< HEAD
                     tools:itemCount="4"
                     tools:listitem="@layout/itemlisttugas" />
             </androidx.cardview.widget.CardView>
@@ -198,3 +256,15 @@
 
 
 </androidx.constraintlayout.motion.widget.MotionLayout>
+=======
+                    tools:listitem="@layout/itemlisttugas"
+                    tools:itemCount="4"/>
+            </androidx.cardview.widget.CardView>
+
+
+
+        </ScrollView>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+</RelativeLayout>
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7

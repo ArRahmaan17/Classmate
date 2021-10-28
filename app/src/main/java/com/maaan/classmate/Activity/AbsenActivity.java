@@ -2,6 +2,7 @@ package com.maaan.classmate.Activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+<<<<<<< HEAD
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -58,12 +59,22 @@ public class AbsenActivity extends AppCompatActivity {
         });
     }
 
+=======
+import android.os.Bundle;
+import com.maaan.classmate.R;
+
+public class AbsenActivity extends AppCompatActivity {
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_absen);
+<<<<<<< HEAD
         ButterKnife.bind(this);
+=======
+
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
     }
 }

@@ -4,11 +4,24 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
+<<<<<<< HEAD
 import android.widget.EditText;
 import android.widget.Toast;
 
 import com.maaan.classmate.Api.ApiRequestData;
 import com.maaan.classmate.Api.RetroServer;
+=======
+import android.util.Log;
+import android.widget.EditText;
+import android.widget.ProgressBar;
+import android.widget.Toast;
+
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+import com.maaan.classmate.Api.ApiRequestData;
+import com.maaan.classmate.Api.RetroServer;
+import com.maaan.classmate.Model.DataModel;
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 import com.maaan.classmate.Model.DataResponse;
 import com.maaan.classmate.R;
 import butterknife.BindView;
@@ -17,6 +30,11 @@ import butterknife.OnClick;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+<<<<<<< HEAD
+=======
+import retrofit2.Retrofit;
+import retrofit2.converter.gson.GsonConverterFactory;
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
 public class RegisterActivity extends AppCompatActivity {
     String nama, password, foto, email, nama_ibu, no_telp;
@@ -32,7 +50,10 @@ public class RegisterActivity extends AppCompatActivity {
     @OnClick(R.id.btn_register)void daftar(){
         progress = new ProgressDialog(this);
         progress.setCancelable(false);
+<<<<<<< HEAD
         progress.setIcon(R.drawable.loading);
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
         progress.setMessage("Loading, Please Wait");
         progress.show();
 

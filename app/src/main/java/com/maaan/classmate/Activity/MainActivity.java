@@ -30,7 +30,10 @@ public class MainActivity extends AppCompatActivity {
     @OnClick(R.id.btn_login) void login(){
         progress = new ProgressDialog(this);
         progress.setCancelable(false);
+<<<<<<< HEAD
         progress.setIcon(R.drawable.loading);
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
         progress.setMessage("Loading, Please Wait");
         progress.show();
         user = etuser.getText().toString();
@@ -46,8 +49,11 @@ public class MainActivity extends AppCompatActivity {
                 if(kode == 201){
                     Toast.makeText(MainActivity.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
                     progress.dismiss();
+<<<<<<< HEAD
                     etuser.setText("");
                     etpass.setText("");
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
                     startActivity(new Intent(MainActivity.this, HomeActivity.class));
                 }else{
                     progress.dismiss();
@@ -58,8 +64,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onFailure(Call<DataResponse> call, Throwable t) {
                 progress.dismiss();
+<<<<<<< HEAD
                 Toast.makeText(MainActivity.this, "Login Gagal "+t, Toast.LENGTH_SHORT).show();
                 etuser.setText("");
+=======
+                Toast.makeText(MainActivity.this, "Login Gagal"+t, Toast.LENGTH_SHORT).show();
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
             }
         });
 

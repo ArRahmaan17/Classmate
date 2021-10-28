@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -23,10 +24,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.7" />
 
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
     <LinearLayout
         android:id="@+id/ll_kotaklogin"
         android:layout_width="match_parent"
         android:layout_height="400dp"
+<<<<<<< HEAD
         android:layout_margin="40dp"
         android:orientation="vertical"
         android:padding="10dp"
@@ -35,66 +46,110 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+=======
+        android:layout_centerVertical="true"
+        android:layout_margin="40dp"
+        android:background="@drawable/backgroundformlogin"
+        android:orientation="vertical"
+        android:padding="10dp">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
+<<<<<<< HEAD
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:src="@drawable/connectedglobe" />
+=======
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/connectedglobe"
+                android:layout_marginStart="10dp" />
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+<<<<<<< HEAD
                 android:layout_marginStart="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
                 android:text="Sign In Form"
                 android:textSize="18sp"
                 android:textStyle="bold" />
+=======
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Sign In Form"
+                android:layout_marginStart="10dp" />
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
         </LinearLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             app:boxBackgroundMode="outline"
             app:errorEnabled="true"
             app:helperText="nama pelajar"
             app:helperTextTextColor="#FF0000"
             app:startIconDrawable="@drawable/ic_person">
 
+=======
+            app:errorEnabled="true"
+            app:startIconDrawable="@drawable/ic_person"
+            app:boxBackgroundMode="outline">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
             <EditText
                 android:id="@+id/et_username"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
+<<<<<<< HEAD
                 android:hint="Nama"
                 android:inputType="textAutoCorrect"
                 android:textSize="20sp" />
+=======
+                android:hint="Username"
+                android:textSize="20sp"
+                android:inputType="textAutoCorrect" />
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             app:boxBackgroundMode="outline"
             app:errorEnabled="true"
             app:helperText="password pelajar"
             app:helperTextTextColor="#FF0000"
             app:startIconDrawable="@drawable/ic_password">
 
+=======
+            app:errorEnabled="true"
+            app:boxBackgroundMode="outline"
+            app:startIconDrawable="@drawable/ic_password">
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
             <EditText
                 android:id="@+id/et_password"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center_vertical"
                 android:hint="Password"
+<<<<<<< HEAD
                 android:inputType="textPassword"
                 android:textSize="20sp" />
         </com.google.android.material.textfield.TextInputLayout>
@@ -110,18 +165,46 @@
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20sp" />
+=======
+                android:textSize="20sp"
+                android:inputType="textPassword"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_login"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:text="Login"
+            android:textSize="20sp"
+            style="?attr/spinnerDropDownItemStyle"/>
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
 
         <TextView
             android:id="@+id/tv_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:layout_gravity="end"
             android:layout_marginTop="10dp"
             android:text="Register"
             android:textSize="14dp" />
+=======
+            android:layout_marginTop="10dp"
+            android:text="Register"
+            android:layout_gravity="end"
+            android:textSize="14dp"/>
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
     </LinearLayout>
 
 
+<<<<<<< HEAD
 </androidx.constraintlayout.motion.widget.MotionLayout>
+=======
+</RelativeLayout>
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7

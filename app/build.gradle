@@ -5,6 +5,11 @@ plugins {
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
+<<<<<<< HEAD
+=======
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
 
     defaultConfig {
         applicationId "com.maaan.classmate"

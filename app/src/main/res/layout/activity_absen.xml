@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Activity.AbsenActivity">
 
+<<<<<<< HEAD
     <ImageView
         android:layout_width="200sp"
         android:layout_height="200sp"
@@ -69,3 +74,6 @@
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+=======
+</RelativeLayout>
+>>>>>>> 8271c302726697bc6dcddf53ebc26c6c312b03e7
